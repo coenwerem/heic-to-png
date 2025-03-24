@@ -1,6 +1,6 @@
 # HEIC to PNG Converter
 
-This is a simple Python script that converts all HEIC files in a directory to `PPM`, `PNG`, `JPEG`, `GIF`, `TIFF`, and `BMP` format. It is a fork of the [`heic-to-png` repo](https://github.com/victorlvl47/heic-to-png) by [`victorlvl47`](https://github.com/victorlvl47), modified to dynamically specify the output image save directory and file extension, and support MacOS,. It uses the `pillow-heif` library to read the `HEIC` files and the `Pillow` library to save them in one of the foregoing file formats. By default, the output image files will be stored with the `.png` extension in a folder named `heic_img` within the directory containing the `HEIC` files. 
+This Python script converts all HEIC files in a directory into several formats, including `PPM`, `PNG`, `JPEG`, `GIF`, `TIFF`, and `BMP`. It's a fork of the [`heic-to-png` repository](https://github.com/victorlvl47/heic-to-png) by [`victorlvl47`](https://github.com/victorlvl47), with modifications to dynamically specify the output directory and file extension, and it also adds support for macOS. The script uses the `pillow-heif` library to read the HEIC files and the `Pillow` library to save them in the specified formats. By default, the converted images are saved as `.png` files in a folder named `heic_img`, located within the same directory as the original HEIC files. 
 
 ![heic to png](heic-to-png.png)
 
@@ -57,4 +57,4 @@ Example: `python main.py my_save_dir jpeg`.
 
 ## Notes
 
-- This script was modified from the original and tested on MacOS Sonoma 14.7.4.
+- This script was modified from the original and tested on macOS Sonoma 14.7.4.

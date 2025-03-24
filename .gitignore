@@ -1,5 +1,9 @@
 # ignore images
 /heic_img
+/my_save_dir*
+
+# .HEIC files
+*.HEIC
 
 # venv
 /myenv
